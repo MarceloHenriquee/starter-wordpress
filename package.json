@@ -1,0 +1,26 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.27",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "1.16"
+  }
+}
