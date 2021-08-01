@@ -8,11 +8,11 @@
     <title>Starter Wordpress</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>Hello base teme</h1>
-        <button  class="btn btn-primary">Clique aqui</button>
+    <div class="container">
+        <h1>Hello Base Teme</h1>
+        <button  class="btn btn-primary">Clique</button>
     </div>
 
-    <script src="./assets/js/app.js"></script>
+    <script  src="./assets/js/app.js"></script>
 </body>
 </html>
