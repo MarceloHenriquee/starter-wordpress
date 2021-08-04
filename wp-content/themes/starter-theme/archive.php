@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <main>
-    
     <section>
         <div class="container">
             
@@ -11,7 +10,10 @@
                     the_post(); ?>
                     
                       <h2><?php the_title(); ?></h2>
-                      <?php the_content();    
+                      <a href="<?= get_the_permalink($post->ID); ?>">Ler</a>
+                      
+                      <hr />
+                  <?php    
                 }
             }
           ?>

@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<script src="<?= get_template_directory_uri() . '/assets/js/app.js'; ?>"></script>
+<script src="<?= THEME_URI . '/assets/js/app.js' ?>; "></script>
 
 </body>
 
